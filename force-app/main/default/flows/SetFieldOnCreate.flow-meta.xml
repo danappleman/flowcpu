@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>AssignField</name>
+        <label>AssignField</label>
+        <locationX>601</locationX>
+        <locationY>211</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.TextField__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>&apos;abcdefghijklmnopqrstuvwxyz&apos;</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <interviewLabel>SetFieldOnCreate {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SetFieldOnCreate</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>AssignField</targetReference>
+        </connector>
+        <object>TestObject__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,49 @@
+49.0 APEX_CODE,ERROR;APEX_PROFILING,INFO;CALLOUT,NONE;DB,NONE;NBA,INFO;SYSTEM,NONE;VALIDATION,NONE;VISUALFORCE,NONE;WAVE,NONE;WORKFLOW,NONE
+Execute Anonymous: AnonymousHelper.CreateRecords();
+09:52:35.2 (2616117)|USER_INFO|[EXTERNAL]|0051k000003GT0I|test-ijf8z6jecs5t@example.com|(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)|GMT-07:00
+09:52:35.2 (2646415)|EXECUTION_STARTED
+09:52:35.2 (2651234)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+09:52:35.2 (19749467)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:01I1k000000KDUA
+09:52:35.2 (121817131)|CODE_UNIT_FINISHED|Flow:01I1k000000KDUA
+09:52:35.2 (126270244)|CODE_UNIT_STARTED|[EXTERNAL]|01q1k000000H12e|TestObjectTrigger on TestObject trigger event BeforeInsert|__sfdc_trigger/TestObjectTrigger
+09:52:35.2 (126809216)|USER_DEBUG|[2]|ERROR|In trigger
+09:52:35.126 (126830751)|CUMULATIVE_LIMIT_USAGE
+09:52:35.126 (126830751)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 200 out of 10000
+  Maximum CPU time: 2 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:52:35.126 (126830751)|CUMULATIVE_LIMIT_USAGE_END
+
+09:52:35.2 (127923049)|CODE_UNIT_FINISHED|TestObjectTrigger on TestObject trigger event BeforeInsert|__sfdc_trigger/TestObjectTrigger
+09:52:35.2 (482479835)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:01I1k000000KDUA
+09:52:35.2 (482508090)|CODE_UNIT_FINISHED|Flow:01I1k000000KDUA
+09:52:35.2 (491206909)|USER_DEBUG|[12]|ERROR|Elapsed Time: 79 ms
+09:52:35.509 (509086755)|CUMULATIVE_LIMIT_USAGE
+09:52:35.509 (509086755)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 200 out of 10000
+  Maximum CPU time: 81 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:52:35.509 (509086755)|CUMULATIVE_LIMIT_USAGE_END
+
+09:52:35.2 (509142652)|CODE_UNIT_FINISHED|execute_anonymous_apex
+09:52:35.2 (509158874)|EXECUTION_FINISHED
